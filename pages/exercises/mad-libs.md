@@ -4,16 +4,17 @@ layout: quote
 
 # Example 1: Mad Libs Game
 
-<v-clicks>
 
 Asks the user for random words, then puts them into a funny story template.
 
-<iframe
-  src="https://trinket.strivemath.org/embed/python3/5214be8341f7?outputOnly=true&start=result&runOption=run"
-  class="w-full h-80 rounded-lg border border-gray-500/40 mt-6"
-></iframe>
+<div v-click>
+  <iframe
+    v-if="$clicks >= 1"
+    src="https://trinket.strivemath.org/embed/python3/5214be8341f7?outputOnly=true&start=result&runOption=run"
+    class="w-full h-80 rounded-lg border border-gray-500/40 mt-6"
+  ></iframe>
+</div>
 
-</v-clicks>
 
 ---
 layout: quote

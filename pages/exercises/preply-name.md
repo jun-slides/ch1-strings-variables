@@ -6,10 +6,14 @@ layout: quote
 
 Takes a first and last name and formats them into a Preply-style display name (titlecase first name + uppercase first letter of last name + period).
 
-<iframe
-  src="https://trinket.strivemath.org/embed/python3/ceda3ac1a21e?outputOnly=true&runOption=run&start=result"
-  class="w-full h-80 rounded-lg border border-gray-500/40 mt-6"
-></iframe>
+<div v-click>
+  <iframe
+    v-if="$clicks >= 1"
+    src="https://trinket.strivemath.org/embed/python3/ceda3ac1a21e?outputOnly=true&runOption=run&start=result"
+    class="w-full h-80 rounded-lg border border-gray-500/40 mt-6"
+  ></iframe>
+</div>
+
 
 ---
 layout: quote

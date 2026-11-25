@@ -4,16 +4,19 @@ layout: quote
 
 # Example 3: Username Generator
 
-<v-clicks>
+
 
  Takes a name and creates different username styles using upper/lower.
 
-<iframe
-  src="https://trinket.strivemath.org/embed/python3/c2b2781d8151?outputOnly=true&runOption=run&start=result"
-  class="w-full h-80 rounded-lg border border-gray-500/40 mt-6"
-></iframe>
 
-</v-clicks>
+<div v-click>
+  <iframe
+    v-if="$clicks >= 1"
+    src="https://trinket.strivemath.org/embed/python3/c2b2781d8151?outputOnly=true&runOption=run&start=result"
+    class="w-full h-80 rounded-lg border border-gray-500/40 mt-6"
+  ></iframe>
+</div>
+
 
 ---
 layout: quote

@@ -4,16 +4,20 @@ layout: quote
 
 # Exercise: Create a secret message
 
-<v-clicks>
 
 Replace a with @ and e with 3 to make the message appear secret.
 
-<iframe
-  src="https://trinket.strivemath.org/embed/python3/0e69c99a9430?outputOnly=true&runOption=run&start=result"
-  class="w-full h-80 rounded-lg border border-gray-500/40 mt-6"
-></iframe>
 
-</v-clicks>
+
+<div v-click>
+  <iframe
+    v-if="$clicks >= 1"
+    src="https://trinket.strivemath.org/embed/python3/0e69c99a9430?outputOnly=true&runOption=run&start=result"
+    class="w-full h-80 rounded-lg border border-gray-500/40 mt-6"
+  ></iframe>
+</div>
+
+
 
 ---
 layout: quote

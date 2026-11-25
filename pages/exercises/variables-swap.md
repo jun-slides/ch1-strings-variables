@@ -6,10 +6,15 @@ layout: quote
 
 Asks for 2 values value1 and value2 then switches them.
 
-<iframe
-  src="https://trinket.strivemath.org/embed/python3/38ab14ddd5b0?outputOnly=true&runOption=run&start=result"
-  class="w-full h-80 rounded-lg border border-gray-500/40 mt-6"
-></iframe>
+
+
+<div v-click>
+  <iframe
+    v-if="$clicks >= 1"
+    src="https://trinket.strivemath.org/embed/python3/38ab14ddd5b0?outputOnly=true&runOption=run&start=result"
+    class="w-full h-80 rounded-lg border border-gray-500/40 mt-6"
+  ></iframe>
+</div>
 
 
 ---

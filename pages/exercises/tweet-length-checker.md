@@ -4,16 +4,16 @@ layout: quote
 
 # Example 2: Tweet Length Checker
 
-<v-clicks>
 
  Checks if a message fits in a tweet (280 characters) using len().
 
-<iframe
-  src="https://trinket.strivemath.org/embed/python3/84109da44c36?outputOnly=true&runOption=run&start=result"
-  class="w-full h-80 rounded-lg border border-gray-500/40 mt-6"
-></iframe>
-
-</v-clicks>
+<div v-click>
+  <iframe
+    v-if="$clicks >= 1"
+    src="https://trinket.strivemath.org/embed/python3/84109da44c36?outputOnly=true&runOption=run&start=result"
+    class="w-full h-80 rounded-lg border border-gray-500/40 mt-6"
+  ></iframe>
+</div>
 
 ---
 layout: quote
