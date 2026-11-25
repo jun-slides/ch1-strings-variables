@@ -15,11 +15,12 @@ layout: quote
 ---
 
 
-### Using len() with Variables
+# Using len() with variables
 
 ```python
-name = input("What is your name? ")
-name_length = len(name)
+name_length = len("Angela")
 print(name_length)
 ```
+
+
 

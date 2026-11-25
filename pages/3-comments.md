@@ -12,10 +12,11 @@ Comments are notes for humans - Python ignores them completely.
 
 <v-click>
 
-```python
+```python {*|1|2|*} {lines:true}
 # This is a comment - Python skips this line
 print("Hello")  # You can also comment at the end of a line
 ```
+
 
 </v-click>
 

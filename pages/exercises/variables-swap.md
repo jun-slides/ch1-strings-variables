@@ -30,8 +30,7 @@ layout: quote
 1. This program takes two inputs. 
 2. The first input is stored in a variable called `value1`. 
 3. The second input is stored in a variable called `value2`.
-
-Write a program that switches the values stored in the variables `a` and `b`.
+4. Write a program that switches the values stored in the variables `value1` and `value2`.
 
 </v-clicks>
 
@@ -186,7 +185,7 @@ print(f"First Value:  {value1}")
 print(f"Second Value: {value2}")
 ```
 
-```python {4-7}
+```python {1,4-7}
 value1 = '10'
 value2 = '20'
 
@@ -201,7 +200,7 @@ print(f"First Value:  {value1}")
 print(f"Second Value: {value2}")
 ```
 
-```python {4-7}
+```python {2,4-7}
 value1 = '10'
 value2 = '20'
 
@@ -216,7 +215,7 @@ print(f"First Value:  {value1}")
 print(f"Second Value: {value2}")
 ```
 
-```python {4-7|9-12}
+```python {5,7|4-7|9-12}
 value1 = '10'
 value2 = '20'
 
@@ -244,6 +243,22 @@ print()
 print("Values after swap")
 print(f"First Value:  20")
 print(f"Second Value: 10")
+```
+
+
+```python
+value1 = input("First Value: ")
+value2 = input("Second Value: ")
+
+# Create a third variable to help switch the values
+save = value1
+value1 = value2
+value2 = save
+
+print()
+print("Values after swap")
+print(f"First Value:  {value1}")
+print(f"Second Value: {value2}")
 ```
 
 ````    

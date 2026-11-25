@@ -9,7 +9,6 @@ drawings:
 
 
 # Chapter 1: Strings and Variables
-Python Basics
 
 <div class="opacity-60 mt-8">
 print · variables · f-strings · input · string methods
@@ -50,6 +49,10 @@ src: ./pages/6-len.md
 ---
 
 ---
+src: ./pages/exercises/name-length.md
+---
+
+---
 src: ./pages/exercises/tweet-length-checker.md
 ---
 
@@ -81,10 +84,10 @@ src: ./pages/exercises/preply-name.md
 ---
 
 
-
 ---
 src: ./pages/9-variable-naming.md
 ---
+
 
 ---
 src: ./pages/exercises/emoji-translator.md
