@@ -2,7 +2,7 @@
 layout: quote
 ---
 
-# The `print()` function
+# The print() function
 
 <v-clicks>
 

@@ -60,7 +60,7 @@ print("Hello" + " " + "Angela")   # Outputs: Hello Angela
 layout: quote
 ---
 
-# Repeating a string using `*`
+# Repeating a string using *
 
 Use `*` operator if you want to repeat a string
 
